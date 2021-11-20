@@ -1,16 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 body {
     font-family: sans-serif;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .paragraph {
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
+    width: 425px;;
+}
+
+.intro_paragraph {
+    width: 425px;;
 }
 
 .header1 {
     font-size: 64px;
     color: #1F3F68;
+    width: 510px;
 }
 
 .header2 {
@@ -35,6 +56,58 @@ body {
     box-sizing: border-box;
     border-radius: 10px;
     opacity: 0.4;
+}
+
+.team_benefits {
+    width: 495px;
+}
+
+.team_benefits .header3 {
+    width: 340px;
+}
+
+.info_panels {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_panel {
+    width: 359px;
+}
+
+.contact_us {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contacts_top_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_us .paragraph {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.contact_us img {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about_team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addresses_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .submit {
